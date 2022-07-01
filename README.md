@@ -1,1 +1,1 @@
-This folder contain script which runs a C filethrough the preprocessor and save the result into another file
+The repo contain some file concern C programming
