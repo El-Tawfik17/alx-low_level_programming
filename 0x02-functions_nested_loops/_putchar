@@ -2,6 +2,7 @@
 /**
 *_putchar - is function which write charater c to stdout
 *@c:is character to print
+*Description:function print character
 *Return:On success 1
 */
 int _putchar(char c)
