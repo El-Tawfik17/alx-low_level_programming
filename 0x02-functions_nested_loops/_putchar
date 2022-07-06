@@ -1,0 +1,10 @@
+#include <unistd.h>
+/**
+*_putchar - is function which write charater c to stdout
+*@c:is character to print
+*Return:On success 1
+*/
+int _putchar(char c)
+{
+return (write(1,&c,1);
+}
