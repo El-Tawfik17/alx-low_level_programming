@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * maain - printf the string in put function 
- * Descriptin :using the main function
+ * main - printf the string in put function 
+ * Descriptin:using the main function
  * this program prints "Progamming is like a multilingual puzzle"
- * Return: 0
+ * Return:0
  */
 int main(void) 
 {
