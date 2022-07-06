@@ -5,8 +5,7 @@
  *this program prints "Progamming is like a multilingual puzzle"
  *Return:0
  */
-
-int main(void) 
+nt main(void) 
 {
 char c;
 int i;
