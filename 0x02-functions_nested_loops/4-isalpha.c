@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islpha-function check if is letter and lowercase or uppercase
+ * _islpha - function check if is letter and lowercase or uppercase
  * Description:this function is write return one or zero
  * @c:is paramater for our function
  * Return:0
