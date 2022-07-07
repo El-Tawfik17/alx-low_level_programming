@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * print_sign(int n) - function print the sign of number
  * @n:is paramater for the function
