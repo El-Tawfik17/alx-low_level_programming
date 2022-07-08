@@ -6,6 +6,7 @@
 void jack_bauer(void)
 {
 	int hours = 0, minutes = 0, hours_remainder, mins_remainder;
+
 	while (hours <= 23)
 	{
 	while (minutes <= 59)
@@ -23,4 +24,4 @@ void jack_bauer(void)
 	hours++;
 	minutes = 0;
 	}
-} 			
+}
