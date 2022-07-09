@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98 - function print number from ninety eight
- * @n:is parameater of function
+ * prin_to_98 - function print from n to ninety eight
+ * @n:is paramater
  * Return:0
  */
 void print_to_98(int n)
@@ -11,15 +11,10 @@ void print_to_98(int n)
 	{
 		while (n <= 98)
 		{
+			printf("%d", n);
 			if (n != 98)
 			{
-				printf("%d",n);
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-			{
-				printf("%d",n);
+				printf(", ");
 			}
 			n++;
 		}
@@ -28,18 +23,17 @@ void print_to_98(int n)
 	{
 		while (n >= 98)
 		{
-		if (n != 98)
-		{
-			printf("%d",n);
-			_putchar(',');
-			_putchar(' ');
-		}
-		else
-		{
-			printf("%d",n);
-		}
-		n--;
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+			n--;
 		}
 	}
-	printf("%d",n);
+	else
+	{
+		printf("98");
+	}
+	printf("\n");
 }
