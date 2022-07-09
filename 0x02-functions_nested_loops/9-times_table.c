@@ -16,7 +16,7 @@ void times_tables(void)
 		if (y != 0)
 		{
 			_putchar(',');
-			_putchar(',');
+			_putchar(' ');
 		}
 		if (y == 0)
 		{
@@ -29,7 +29,7 @@ void times_tables(void)
 		}
 		else if ((pr < 10) && (y != 0))
 		{
-			_putchar(',');
+			_putchar(' ');
 			_putchar((pr % 10) + '0');
 		}
 		}
