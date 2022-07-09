@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * prin_to_98 - function print from n to ninety eight
+ * print_to_98 - function print from n to ninety eight
  * @n:is paramater
  * Return:0
  */
