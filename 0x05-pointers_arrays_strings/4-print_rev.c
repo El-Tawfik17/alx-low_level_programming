@@ -4,7 +4,7 @@
  * @s:is paramater
  * Return:0
  */
-void print_rev(char*s)
+void print_rev(char *s)
 {
 	int i, c;
 
@@ -18,4 +18,3 @@ void print_rev(char*s)
 	}
 	_putchar('\n');
 }
-
