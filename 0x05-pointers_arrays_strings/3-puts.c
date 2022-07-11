@@ -4,7 +4,7 @@
  * @str:is paramater
  * Return:0
  */
-void _put(char*str)
+void _puts(char *str)
 {
 	int i = 0;
 
@@ -13,5 +13,5 @@ void _put(char*str)
 		_putchar(str[i]);
 		i++;
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
