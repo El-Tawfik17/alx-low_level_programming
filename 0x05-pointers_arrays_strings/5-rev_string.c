@@ -4,9 +4,10 @@
  * @s:isparamater
  * Return:0
  */
-void rev_string(char*s)
+void rev_string(char *s)
 {
 	int i = 0, x, y, c;
+
 	while (s[i] != '\0')
 	{
 		i++;
