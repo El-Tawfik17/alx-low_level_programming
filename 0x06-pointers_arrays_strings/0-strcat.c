@@ -1,10 +1,11 @@
-#inlude "main.h"
+#include "holberton.h"
+
 /**
-* _strcat - function to contenate
-* @dest:is paramater
-* @src:is paramater
-* Return:0
-*/
+ * _strcat - a function that concatenates two strings
+ * @dest: copy to
+ * @src: copy from
+ * Return: two concat strings
+ */
 char *_strcat(char *dest, char *src)
 {
 	int i, n;
@@ -12,8 +13,10 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
+
 	for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
 	{
 	}
-		return (dest);
+
+	return (dest);
 }
