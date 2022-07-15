@@ -1,1 +1,1 @@
-## This project concern  array and pointer
+#3this project concern strings and arrays
