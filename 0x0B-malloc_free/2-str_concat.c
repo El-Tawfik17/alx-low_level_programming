@@ -4,7 +4,8 @@
 
 /**
  * str_concat - concatenates two strings
- *
+ * @s1:is paramater
+ * @s2:is paramater 
  * Return: Always 0.
  */
 
